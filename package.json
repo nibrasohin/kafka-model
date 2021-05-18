@@ -1,0 +1,25 @@
+{
+  "name": "kafka-model",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start:producer": "node ./producer/index.js",
+    "start:consumer": "node ./consumer/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nibrasohin/kafka-model.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nibrasohin/kafka-model/issues"
+  },
+  "homepage": "https://github.com/nibrasohin/kafka-model#readme",
+  "dependencies": {
+    "avsc": "^5.7.0",
+    "node-rdkafka": "^2.10.1"
+  }
+}
