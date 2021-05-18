@@ -23,4 +23,4 @@ Setup instructions:
 A demonstration of Kafka
   - Producer publishing events to a topic
   - Consumer consuming events from the topic
-  - The event is serialized and deserialized 
+  - The events are serialized and deserialized 
